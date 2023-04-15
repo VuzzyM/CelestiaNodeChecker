@@ -62,7 +62,8 @@ ExecStart=/usr/bin/python3 /root/your directory/main.py
 StandardInput=tty-force
 
 [Install]
-WantedBy=multi-user.target```
+WantedBy=multi-user.target
+```
 
 ![1](https://user-images.githubusercontent.com/66425682/232172724-c3c6fc3f-7e5e-4cf1-b069-bfb63f7b545e.png)
 
