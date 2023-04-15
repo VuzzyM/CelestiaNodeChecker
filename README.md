@@ -48,7 +48,8 @@ Example script:
 
 Insert this script and your directory.
 
-```[Unit]
+```
+[Unit]
 Description=Custom Python Service
 After=multi-user.target
 Conflicts=getty@tty1.service
