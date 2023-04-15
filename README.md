@@ -42,7 +42,7 @@ My link to test my Bot in Discord and to your channels: https://discord.com/api/
 
 **How to Usage with systemd service:**
 
-1. **Create a Systemd service file that specifies the script you want to run and any additional options or dependencies. The service file should be named after the service, and it should end with the .service extension. For example, to create a service named celestia, you can create a file named `celestia.service` in the `/etc/systemd/system` directory.**
+4. **Create a Systemd service file that specifies the script you want to run and any additional options or dependencies. The service file should be named after the service, and it should end with the .service extension. For example, to create a service named celestia, you can create a file named `celestia.service` in the `/etc/systemd/system` directory.**
 
 **Example script:**
 
@@ -64,7 +64,9 @@ StandardInput=tty-force
 [Install]
 WantedBy=multi-user.target```
 
-![1](https://user-images.githubusercontent.com/66425682/232172405-6104b044-8a3d-4e4f-9603-25de2517fa66.png)
+![1](https://user-images.githubusercontent.com/66425682/232172724-c3c6fc3f-7e5e-4cf1-b069-bfb63f7b545e.png)
+
+5. **Run systemd service.**
 
 **Now we need to reload the daemon.**
 
@@ -96,10 +98,10 @@ Now our service is up and running.
 
 Use ```/node``` and put your node id.
 
-![2](https://user-images.githubusercontent.com/66425682/232172385-b06efcac-7adf-497f-8735-fd14c7e0679c.png)
+![2](https://user-images.githubusercontent.com/66425682/232172710-4775a1e4-45ef-47f8-a0ab-f53cfcdd0c8d.png)
 
 Result:
 
-![3](https://user-images.githubusercontent.com/66425682/232172379-a204610e-035b-4536-a7f2-6684ae73a7be.png)
+![3](https://user-images.githubusercontent.com/66425682/232172717-bc00f440-c207-4a5f-a7f3-040ab11a7b8d.png)
 
 
