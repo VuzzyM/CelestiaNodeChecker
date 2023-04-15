@@ -2,6 +2,7 @@
 This bot is specially created to identify the type of node light, full, bridge, for the Celestia Blockchain and its status.
 
 My link to test my Bot in Discord and to your channels: https://discord.com/api/oauth2/authorize?client_id=1096538432383230113&permissions=67584&scope=bot 
+Link to my personal channel with this bot: https://discord.gg/dz8Sw75U9H
 
 **Functions:**
 
