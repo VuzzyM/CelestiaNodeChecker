@@ -40,15 +40,13 @@ My link to test my Bot in Discord and to your channels: https://discord.com/api/
 
  Insert BOT_TOKEN with the actual token provided by Discord.
 
-**How to Usage with systemd service:**
-
 4. **Create a Systemd service file that specifies the script you want to run and any additional options or dependencies. The service file should be named after the service, and it should end with the .service extension. For example, to create a service named celestia, you can create a file named `celestia.service` in the `/etc/systemd/system` directory.**
 
-**Example script:**
+Example script:
 
 ```sudo nano /etc/systemd/system/celestia.service```
 
-**Insert this script and your directory.**
+Insert this script and your directory.
 
 ```[Unit]
 Description=Custom Python Service
@@ -67,9 +65,10 @@ WantedBy=multi-user.target
 
 ![1](https://user-images.githubusercontent.com/66425682/232172724-c3c6fc3f-7e5e-4cf1-b069-bfb63f7b545e.png)
 
+
 5. **Run systemd service.**
 
-**Now we need to reload the daemon.**
+Now we need to reload the daemon.
 
 ```sudo systemctl daemon-reload```
 
