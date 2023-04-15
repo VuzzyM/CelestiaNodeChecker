@@ -94,7 +94,7 @@ Now our service is up and running.
 
 ```sudo systemctl status name_of_your_service```
 
-**Usage this bot on discord channel:**
+6. **Usage this bot on discord channel:**
 
 Use ```/node``` and put your node id.
 
