@@ -5,6 +5,8 @@ My link to test my Bot in Discord and to your channels: https://discord.com/api/
 
 Link to my personal channel with this bot: https://discord.gg/dz8Sw75U9H
 
+I don't know if it's necessary to add this here, only that in the task it was written to write a utility for celestia node, I'm adding it here: https://github.com/VuzzyM/celestia-analysis here it is used for the node analysis task, but I add that it is also utility used for the node.
+
 **Functions:**
 
 **This Bot display:**
